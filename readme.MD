@@ -1,4 +1,4 @@
-# Code that parses out the differnt Thermometry Boards
+#  Thermometry Boards on Dewars for Star Detectors
 This software is developed for the BETTII project by Jordi Vila at NASA Goddard Space Flight Center.
 
 ![Thermometry](bettii.png)
