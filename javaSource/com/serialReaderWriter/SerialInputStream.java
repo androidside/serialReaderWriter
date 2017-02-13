@@ -1,4 +1,4 @@
-package com.thermometry;
+package com.serialReaderWriter;
 
 
 
