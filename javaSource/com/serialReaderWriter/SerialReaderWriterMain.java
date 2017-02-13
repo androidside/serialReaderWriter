@@ -23,7 +23,7 @@ public class SerialReaderWriterMain
 	private static final Logger sLogger = Logger.getLogger(SerialReaderWriterMain.class.getName());
 	//Need to set port
 	private final String fPort = "COM3"; 
-	private final boolean fReadingFile = true;
+	private final boolean fReadingFile = false;
 	public final static boolean fDumpData = false;
 
 
