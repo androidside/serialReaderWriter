@@ -19,10 +19,10 @@ import jssc.SerialPort;
 
 public class SerialReaderWriterMain
 {
-	private static final int BAUD_RATE = 115200;
+	private static final int BAUD_RATE = 9600;
 	private static final Logger sLogger = Logger.getLogger(SerialReaderWriterMain.class.getName());
 	//Need to set port
-	private final String fPort = "COM3"; 
+	private final String fPort = "COM12"; 
 	private final boolean fReadingFile = false;
 	public final static boolean fDumpData = false;
 

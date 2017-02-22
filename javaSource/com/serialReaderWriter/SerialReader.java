@@ -50,7 +50,9 @@ public class SerialReader implements Runnable
 			//                System.out.println("C = "+c+" and readBuf = "+readBuf[0]);
 			if (c > 0)
 			{
-				System.out.print((char)buffer[0]);
+				System.out.print("Character: " +(char)buffer[0]+" ");
+				System.out.print("Character: " +(byte)buffer[0]+" ");
+				System.out.print("Integer:"+(int)buffer[0]+"\n");
 				System.out.flush();
 			}
 			else if (c < 0)
